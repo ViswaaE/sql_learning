@@ -1,0 +1,35 @@
+# Ignore SQLite database files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.sdb
+*.s3db
+
+# Ignore MySQL/PostgreSQL dump files
+*.sql
+*.bak
+*.backup
+*.dump
+
+# Ignore environment & config files with credentials
+.env
+env/
+*.env
+db.config
+database.yml
+config.json
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache if using ipython-sql
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs
+*.log
+
+# Ignore VS Code settings
+.vscode/
